@@ -1,0 +1,60 @@
+h4 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+
+.gradiet {
+    height: 100vh;
+    background: rgba(98, 1, 99,1); /* For browsers that do not support gradients */
+    background: linear-gradient(to bottom right, rgba(98, 1, 99,1), rgba(202, 8, 130,1)); /* Standard syntax (must be last) */
+    background-size: cover;
+}
+
+.logo {
+  max-height: 15vh;
+  margin-top: 45vh;
+}
+
+.logo-pink{
+  margin-top: 20vh;
+}
+
+.img-bkg{
+  background-image: url(../assets/images/playCar.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+}
+
+[class*="screen"]{
+  display: none;
+}
+
+.botones-princ {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.btn-next{
+  background: #A80077;
+  color: #ffffff;
+}
+
+.btn-return {
+  background: none;
+  color: #EA0B8C;
+  font-size: 40px;
+}
+
+.code{
+  margin-top: 10px;
+}
+
+.screen7{
+  background-image: url(../assets/images/backgroundgif.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  height: 100vh;
+}
